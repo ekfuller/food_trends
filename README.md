@@ -12,6 +12,9 @@ We seek to understand if food trends can be predicted. Can we predict the number
 ## Methods
 Data was sourced from the Reddit subreddit forum r/food using the pushshift API and the Reddit API.
 
+## Limitations
+While the reddit posts include photogrpahs this analysis is limited to the text included in the post title. It is possible that users are incentivized to upvote a post (add to it's score) more by the photo than the text.
+
 ## Further Research
 Sources
 https://towardsdatascience.com/an-extensive-guide-to-collecting-tweets-from-twitter-api-v2-for-academic-research-using-python-3-518fcb71df2a
