@@ -28,6 +28,9 @@ The final data set used in the modeling is stored in the 'posts_scores_dates.csv
 |percentile|float|Ranking of the post's score relative to all posts|
 |viral|int|Binary indicator of if a post is 'viral' (1) or not (0). Viral is defined at the top 2% of all posts|
 
+## Conclusions
+Training a model to predict if a post will go 'viral' is extremely difficult. The percentage of posts that truly go viral, is incredibly small making for imbalanced classes that complicate model training. Additionally, going viral is like a snowball effect. Once a post reaches a certain level of engagement it tends to feed on itself and grow further. 
+
 ## Limitations
 While the reddit posts include photogrpahs this analysis is limited to the text included in the post title. It is possible that users are incentivized to upvote a post more by the photo than the text. Further research can be conducted on the image data and the text data combined.
 
